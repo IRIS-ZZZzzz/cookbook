@@ -74,8 +74,8 @@ class SettingUIViewController: UIViewController {
     }
     //烤模換算function
     func calculateRatio(keyInOrigin:UITextField,keyInNew:UITextField,originSquareInch:Float,newSquareInch:Float,piForOrigin:Float,piForNew:Float){
-        let original = Float(originalPanTextField.text!)
-        let new = Float(newPanTextField.text!)
+        let original = Float(keyInOrigin.text!)
+        let new = Float(keyInNew.text!)
         if original != nil && new != nil{
             // 假設維持相同蛋糕高度條件下 食材比例為 新模具面積/原模具面積
             // 圓模面積為 半徑*半徑*pi 半徑為(英吋/2)
@@ -111,10 +111,12 @@ class SettingUIViewController: UIViewController {
 
     //容量換算//
     //輸入茶匙
+    
+
     @IBAction func keyInTsp(_ sender: UITextField) {
-        cupTextField.text = " "
-        tbspTextField.text = " "
-        mlTextField.text = " "
+        //cupTextField.text = " "
+        //tbspTextField.text = " "
+        //mlTextField.text = " "
         calculateVolume(keyIn: sender, convertTsp: 1, convertMl: 5, convertTbsp: 1/3, convertCup: 1/48)
     }
     //輸入杯

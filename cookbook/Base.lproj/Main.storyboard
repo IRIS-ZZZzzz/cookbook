@@ -14208,7 +14208,7 @@ Cg
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                         <connections>
-                                            <action selector="keyInTsp:" destination="6fS-mT-4H3" eventType="editingDidEnd" id="J9a-HX-ZTv"/>
+                                            <action selector="keyInTsp:" destination="6fS-mT-4H3" eventType="editingDidEnd" id="3aB-ZU-bNY"/>
                                         </connections>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="茶匙" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyK-gV-UH6">
