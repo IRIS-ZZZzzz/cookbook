@@ -17,6 +17,7 @@
 		8A693FA327F345CF00D3049D /* cookbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A693FA227F345CF00D3049D /* cookbookTests.swift */; };
 		8A693FAD27F345CF00D3049D /* cookbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A693FAC27F345CF00D3049D /* cookbookUITests.swift */; };
 		8A693FAF27F345CF00D3049D /* cookbookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A693FAE27F345CF00D3049D /* cookbookUITestsLaunchTests.swift */; };
+		8AFDAA8A2837E63B0062A41E /* SettingUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AFDAA892837E63B0062A41E /* SettingUIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8A693FA827F345CF00D3049D /* cookbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cookbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A693FAC27F345CF00D3049D /* cookbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cookbookUITests.swift; sourceTree = "<group>"; };
 		8A693FAE27F345CF00D3049D /* cookbookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cookbookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8AFDAA892837E63B0062A41E /* SettingUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingUIViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				8A693F8A27F345C500D3049D /* SceneDelegate.swift */,
 				8A693F8C27F345C500D3049D /* ViewController.swift */,
 				8A693F8E27F345C500D3049D /* Main.storyboard */,
+				8AFDAA892837E63B0062A41E /* SettingUIViewController.swift */,
 				8A693F9427F345CE00D3049D /* Assets.xcassets */,
 				8A693F9627F345CE00D3049D /* LaunchScreen.storyboard */,
 				8A693F9927F345CE00D3049D /* Info.plist */,
@@ -265,6 +268,7 @@
 				8A693F8D27F345C500D3049D /* ViewController.swift in Sources */,
 				8A693F8927F345C500D3049D /* AppDelegate.swift in Sources */,
 				8A693F8B27F345C500D3049D /* SceneDelegate.swift in Sources */,
+				8AFDAA8A2837E63B0062A41E /* SettingUIViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
